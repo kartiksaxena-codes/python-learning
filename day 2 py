@@ -1,0 +1,17 @@
+# Write a program to display count of all the even and odd numbers between two numbers entered by user:
+
+st = int(input("Enter starting no.: "))
+end = int(input("Enter end no.: "))
+
+ce = 0  # count of even
+co = 0  # count of odd
+n = st
+
+while n < end:
+    if n % 2 == 0:
+        ce = ce + 1
+    else:
+        co = co + 1
+    n = n + 1
+
+print("Count of even =", ce, "and count of odd =", co)
