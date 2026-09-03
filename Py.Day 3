@@ -1,0 +1,20 @@
+# WRITE A PROGRAM THAT TAKES AGE OF A PERSON AND DISPLAYS THE AGE CATAGORY AS PER THE GIVEN AGE CHART
+#1 To 12 (child)
+#13 To 17 (Teen Ager)
+#18 TO 35 (Adult)
+#36 To 57 (Middle Aged)
+#58 or more then 58 (Old Age)
+
+age=int(input("Enter your age"))
+if age>=1 and age<=12:
+    print("Child")
+if age>=13 and age<=17:
+    print("Teen Ager")
+if age>=18 and age<=35:
+    print("Adult")
+if age>=36 and age<=57:
+    print("Middle Aged")
+if age>58:
+    print("Old Age")
+if age<0:
+    print("Invalid age")
