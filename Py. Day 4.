@@ -6,4 +6,4 @@ while c<5:
     num=int(input("Enter no"))
     s=s+num
     c=c+1
-    print("sum in",5)
+    print("sum in",s)
