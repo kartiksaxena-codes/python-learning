@@ -1,0 +1,9 @@
+#Write a program that takes 5 no's form user and display the sum of all the no.
+
+s=0
+c=0
+while c<5:
+    num=int(input("Enter no"))
+    s=s+num
+    c=c+1
+    print("sum in",5)
