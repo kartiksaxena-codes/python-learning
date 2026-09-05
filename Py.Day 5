@@ -1,0 +1,17 @@
+# WRITE A PROGRAM THAT TAKES 5 NO. FROM THE USER AND DISPLAY SUM OF ALL THE NO.S AT THE END .
+#  IT SHOULD ALSO DISPLAY WETHER THE N IS MORE THEN 100 OR LESS THEN 100
+
+c=0
+s=0
+while c<5:
+    num=int(input("Enter no."+str(c+1)))
+# OR WE CAN RIGHT LIKE THIS ALSO
+   # print("Enter no.",c+1,end=' ')
+    #num=int(input())
+    s=s+num
+    c=c+1
+if s>100:
+    print("sum is more then 100",s)
+elif s<100:
+    print("sum is less then 100",s)
+    
